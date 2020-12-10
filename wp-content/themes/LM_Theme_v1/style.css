@@ -1,0 +1,162 @@
+/* CSS RESET */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{
+    display: block;
+}
+
+body{
+    line-height: 1;
+}
+
+ol, ul{
+    list-style: none;
+}
+
+blockquote, q{
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after{
+    content: '';
+    content: none;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+/* INICIO */
+
+:root{
+    /* variables */
+    --black: #000;
+    --white: #fff;
+    --grey: #bababa;
+    --main-font: sans-serif;
+}
+
+*{ }
+
+body {
+    font-family: var(--main-font);
+    background-color: var(--white);
+    color: var(--black);
+    
+    width: 100%;
+    height: 100%;
+}
+
+/* HEADER */
+
+header { }
+
+#header-lettering{
+    color: var(--black);
+}
+
+/* customization for specific pages */ 
+#loop-header { }
+#post-header { } 
+#page-header { }
+#fourofour-header { }
+#category-header { }
+#archive-header { }
+
+header h1 { }
+
+header h1 a { }
+
+header > p { }
+
+main { }
+
+/* customization for specific pages */
+#loop-main{ }
+#post-main { } 
+#page-main { }
+#fourofour-main { }
+#category-main { }
+#archive-main { }
+
+/* for displaying a specific optional "static" post or page  alongside the loop */
+.optional-static-post { }
+
+main section { }
+
+.loop { }
+/* can be targeted with section.loop { } */
+
+main section article { }
+
+.post { }
+/* can be targeted with article.post { } */
+
+.post-title { }
+/* can be targeted with h2.post-title { } */
+
+article section { }
+
+.post-meta { }
+/* can be targeted with section.post-meta { } */
+
+.post-meta .post-categories ul li { }
+
+article section div { }
+
+/* specific main section article section .post-meta div classes */
+.post-thumbnail { }
+.post-time { }
+.post-author { }
+.post-categories { }
+.post-tags { }
+.post-excerpt { }
+
+.post-content { }
+/* can be targeted with section.post-content { } */
+
+#special-cats{ }
+
+#category-filters { }
+
+#category-filters section { }
+
+#filter-1 { }
+
+li.cat-item { }
+
+li.cat-item:hover { }
+
+/* customization of the aside for specific pages eg. display: none; */
+#loop-main aside { }
+#post-main aside { } 
+#page-main aside { }
+#fourofour-main aside{ }
+#category-main aside { }
+#archive-main aside { }
+
+footer { }
+
+/* customization for specific pages */
+#loop-footer{ }
+#post-footer { } 
+#page-footer { }
+#fourofour-footer { }
+#category-footer { }
+#archive-footer { }
+
+@media (max-aspect-ratio: 6/5) { }
