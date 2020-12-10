@@ -19,6 +19,8 @@
 
 <body>
 
+    <p>This is a test</p>
+    
     <header id="loop-header">
         
         <nav>
@@ -33,7 +35,7 @@
 
             <!-- Navigation menu. Don't mess with this one-->
             <?php wp_nav_menu(); ?>
-        </nav>
+        </nav> 
 
     </header>
 
