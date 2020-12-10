@@ -47,32 +47,23 @@ a{
     --black: #000;
     --white: #fff;
     --grey: #bababa;
-    --main-font: "Untitled Sans", sans-serif;
+    --main-font: sans-serif;
 }
 
-*{
-    cursor: auto !important;
-}
-
-@font-face {
-    font-family: 'Untitled Sans';
-    src: url('./fonts/untitled-sans-web-regular.woff2') format('WOFF2');
-}
+*{ }
 
 body {
     font-family: var(--main-font);
     background-color: var(--white);
     color: var(--black);
     
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
 
 /* HEADER */
 
-header {
-    z-index: 20;
-}
+header { }
 
 #header-lettering{
     color: var(--black);

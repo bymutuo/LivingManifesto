@@ -1,5 +1,5 @@
 === wdii ===
-Contributors: Pedro Amado and the class of WD502 2018 students @ FBAUP
+Contributors: Pedro Amado and Hugo Sá
 Requires at least: WordPress 4.7
 Tested up to: WordPress 5.0-trunk
 Version: 0.5 beta 2
@@ -9,7 +9,7 @@ Tags: no columns, sidebar, blank template, minimum files
 
 
 == Description ==
-Blank template to be used as a Wordpress induction for the development of the MEA website design. No images. Minimum files. The template parts have been "dumbed down" to provide a smoother learning theme design curve.
+Blank template to be used as a Wordpress induction for the development of website designs. No images. Minimum files. The template parts have been "dumbed down" to provide a smoother theme design curve.
 
 The header, sidebar & footer have been merged & repeated into all the php template files. Not using components, nor the standard template file hierarchy( yet?). All the features and Wordpress tags are mainly developed (and documented) in the index.php file.  
 
@@ -45,7 +45,7 @@ Finally, as an extra, a special script that allows to click on a category list i
 5. Go to https://developer.wordpress.org/themes/basics/template-files/ for a more in-depth explanation on how the files and functions are linked and called upon. For a complete list of PHP tags to add / to customize this theme go to: https://codex.wordpress.org/Template_Tags on how
 
 == Copyright ==
-Pedro Amado, FBAUP, 2018
+Pedro Amado & Hugo Sá, 2018
 
 == Changelog ==
 

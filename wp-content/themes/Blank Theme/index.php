@@ -18,8 +18,6 @@
 </head>
 
 <body>
-
-    <p>This is a test</p>
     
     <header id="loop-header">
         
