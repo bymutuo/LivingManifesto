@@ -85,11 +85,6 @@
             
             
         </main>
-        
-        <!--cursor-->
-        <div id="cursor">
-            <img src="wp-content/themes/Blank Theme/cursor_2.svg">
-        </div>
 
         <script src="wp-content/themes/Blank Theme/js/main.js"></script>
         
