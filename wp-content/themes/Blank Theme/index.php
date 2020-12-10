@@ -20,17 +20,6 @@
 <body>
 
     <header id="loop-header">
-
-        <span id="burger-button">
-            <svg x="0px" y="0px" viewBox="0 0 74.7 74.7" xml:space="preserve">
-                <g>
-                    <circle cx="63.3" cy="11.4" r="11.4"/>
-                    <circle cx="63.3" cy="63.3" r="11.4"/>
-                    <circle cx="11.4" cy="63.3" r="11.4"/>
-                    <circle cx="11.4" cy="11.4" r="11.4"/>
-                </g>
-            </svg>
-        </span>
         
         <nav>
             <h1 id="header-lettering"> 
