@@ -127,7 +127,7 @@
     <script src="wp-content/themes/Blank Theme/js/main.js"></script>
     <script>
 
-        // Função personalizada para apagar todos os posts com a class post
+        // Function to delete all posts with class 'post'
         function apaga() {
             var posts = document.getElementsByClassName("post"); // <-- edit this class name
 
@@ -137,13 +137,13 @@
             }; 
         }
 
-        // Função personalizada para mostrar  todos os posts com a class clicada
+        // Function to show all posts with class clicked
         function mostra(currentCat) {
 
-            // seleciona todos os posts com a class clicada
+            // selects posts with class clicked
             var catPosts = document.getElementsByClassName(currentCat);
 
-            // para cada post, liga a visibilidade
+            // for each post, turn on visibility
             for (var j = 0; j < catPosts.length; j++) {
 
                 catPosts[j].style.display = "block"; // <-- edit this display accordingly
